@@ -1,0 +1,121 @@
+        body{
+            line-height: 30px;
+            text-align: center;
+            background: #dddddd;
+            margin: auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 17px;
+            }
+            * {
+                box-sizing: border-box;
+            }
+
+        /* Top navigation */
+
+        .topnav {
+            background-color: #ffffff;    
+            color: #777777;
+            border-bottom: 2px solid #cccccc;    
+        }
+
+        .topnav a {
+
+            text-decoration: none;
+            font-size: 17px;
+            color: #999999;
+            margin: 0px 10px 0px 20px;    }
+
+        .topnav a.active{
+
+            background-color: #4aaaa5;
+            border-radius:.25rem;
+            color: #ffffff;
+        }
+        .nav-link{
+            width: 100%;
+        }
+        #name {
+            
+            font-size: 30px;    
+            background-color: #4aaaa5;
+            color: #ffffff;
+
+        }
+        /*Main content*/
+        .main_content{
+            background: white;
+            width: 960px;
+            margin-left: 18.5%;
+            margin-top:10px;
+            text-align:initial;
+            padding: 10px;
+        }
+        h2{
+        
+            text-align: left;
+            color:  #4aaaa5;
+            margin: 20px;
+            border-bottom: 2px solid #dddddd;
+            font-weight: bolder;
+        }
+        p{
+            margin: 10px;
+        
+        }
+        #bio-image {
+
+            float: left;
+            margin: 10px; 
+            padding: 10px;
+        }
+
+        #footer{
+            
+            background: #666666;
+            border-top: 2px solid #4aaaa5;
+            position: fixed; 
+            left: 0 ; right: 0; bottom: 0;        
+        }
+
+        .column{
+            color: #999999;
+        }
+
+        #submit{
+            background-color: #4aaaa5;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .portfolio-text{
+            
+            background: #4aaaa5;
+            color: white;
+            position: absolute;
+            width: 100%;
+            top: 70%;
+            left: -3.7%;
+            border-radius:.25rem;
+
+        }
+
+        .portfolio-image {
+        
+            padding: 10px;
+            text-align: center; 
+            margin: 10px 0px 0px 30px;
+            width: 18rem;
+        }
+
+        #submit:hover,.portfolio-text:hover{
+            background:#0deccb;
+            color: white;
+            font-weight: bolder;
+            
+        }
+
+        .frm-cntrl{
+            width: 97%;
+            margin-left: 10px;
+        }
