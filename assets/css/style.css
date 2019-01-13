@@ -128,10 +128,22 @@
             animation-name: navColor;
             animation-duration: 3s;
         }
+        .topnav a{
+            -webkit-animation-name: navText; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+            animation-name: navText;
+            animation-duration: 3s;
+
+        }
         @keyframes navColor {
 
             from {background-color:#ffffff;}
             to {background-color:#4aaaa5;}
+        }
+        @keyframes navText {
+
+            from {color: #999999;}
+            to {color:white;}
         }
         .animationImage{
             
