@@ -47,6 +47,7 @@
             width: 960px;
             margin-left: 18.5%;
             margin-top:10px;
+            margin-bottom:20px;
             text-align:initial;
             padding: 10px;
         }
@@ -144,3 +145,7 @@
            
         }
         
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
