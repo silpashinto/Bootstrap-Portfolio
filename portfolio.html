@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 
     <title>Bootstrap Portfolio</title>
+    <link rel="icon" type="image/ico" href="./assets/images/alex-read-456245-unsplash.jpg" />
 </head>
 
 <body>
@@ -46,93 +50,198 @@
     <div class="container main_content">
         <div class="row">
             <div class="col-md-12">
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" id="one" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" id="two" href="#">2</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
                 <h2>Portfolio</h2>
-            </div>
-        </div>
-        <!--first Row-->
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card  portfolio-image">
-                    <a href="https://silpashinto.github.io/Word-Guess-Game/" target="_blank"> <img class="card-img-top animationImage"
-                            src="./assets/images/jonathan-petersson-607955-unsplash.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text  portfolio-text">HANGMAN</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card  portfolio-image">
-                    <a href="https://silpashinto.github.io/unit-4-game/" target="_blank"> <img class="card-img-top animationImage"
-                            src="./assets/images/michal-parzuchowski-224092-unsplash.jpg" alt="ai-media">
-                        <div class="card-body">
-                            <p class="card-text  portfolio-text">CRYSTAL COLLECTOR</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-           
-        </div>
-        <!--Second Row-->
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card  portfolio-image">
-                    <a href="https://silpashinto.github.io/TriviaGame/" target="_blank"> <img class="card-img-top animationImage"
-                            src="./assets/images/lukas-spitaler-767402-unsplash.jpg" alt="">
-                        <div class="card-body">
-                            <p class="card-text  portfolio-text">TRIVIA</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card  portfolio-image">
-                    <a href="https://silpashinto.github.io/GifTastic/" target="_blank"> <img class="card-img-top animationImage"
-                            src="./assets/images/alex-chambers-394779-unsplash.jpg" alt="GIFTASTIC">
-                        <div class="card-body">
-                            <p class="card-text  portfolio-text">GIFTASTIC</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-           
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card  portfolio-image">
-                    <a href="https://silpashinto.github.io/Train-Scheduler/" target="_blank"> <img class="card-img-top animationImage"
-                            src="./assets/images/eliska-motisova-1121339-unsplash.jpg" alt="TRAIN SCHEDULER">
-                        <div class="card-body">
-                            <p class="card-text  portfolio-text">TRAIN SCHEDULER</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card  portfolio-image">
-                    <a href="https://alakoff.github.io/Project1/" target="_blank"> <img class="card-img-top animationImage"
-                            src="./assets/images/travel.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text  portfolio-text">TRAVEL DESTINATION CHECKER</p>
-                        </div>
-                    </a>
-                </div>
 
             </div>
         </div>
-    </div>
+        <!--first page start-->
+        <div id="firstpage">
+            <!--first Row-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card  portfolio-image">
+                        <a href="https://silpashinto.github.io/Word-Guess-Game/" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/hangman_logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text  portfolio-text">HANGMAN</p>
 
-    <!-- Row Ends-->
+                            </div>
+                        </a>
+                        <a href="https://github.com/silpashinto/Word-Guess-Game" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card  portfolio-image">
+                        <a href="https://silpashinto.github.io/unit-4-game/" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/alex-chambers-394779-unsplash.jpg" alt="ai-media">
+                            <div class="card-body">
+                                <p class="card-text  portfolio-text">CRYSTAL COLLECTOR</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/silpashinto/unit-4-game" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--Second Row-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card  portfolio-image">
+                        <a href="https://silpashinto.github.io/TriviaGame/" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/trivia.jpg" alt="">
+                            <div class="card-body">
+                                <p class="card-text  portfolio-text">TRIVIA</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/silpashinto/TriviaGame" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card portfolio-image">
+                        <a href="https://silpashinto.github.io/GifTastic/" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/gifi.gif" alt="GIFTASTIC">
+                            <div class="card-body">
+                                <p class="card-text portfolio-text">GIFTASTIC</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/silpashinto/GifTastic" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--Third Row-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card  portfolio-image">
+                        <a href="https://silpashinto.github.io/Train-Scheduler/" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/train.jpg" alt="TRAIN SCHEDULER">
+                            <div class="card-body">
+                                <p class="card-text  portfolio-text">TRAIN SCHEDULER</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/silpashinto/Train-Scheduler" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card portfolio-image">
+                        <a href="https://alakoff.github.io/Project1/" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/travel.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text portfolio-text">TRAVEL DESTINATION CHECKER</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/alakoff/Project1" target="_blank">GitHub</a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Row Ends-->
+        </div>
+        <!--first page ends-->
+
+
+        <!--Second page starts-->
+        <div id="secondpage" style="display:none;">
+            <!--first Row-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card  portfolio-image">
+                        <a href="http://posse.com/" target="_blank"> <img class="card-img-top animationImage" src="./assets/images/NewPosseLogo.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text  portfolio-text">POSSE</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card  portfolio-image">
+                        <a href="https://www.ai-media.tv/" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/ailogo.jpg" alt="ai-media">
+                            <div class="card-body">
+                                <p class="card-text  portfolio-text">AI MEDIA</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!--Second Row-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card  portfolio-image">
+                        <a href="https://spreets.com.au/home/Sydney" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/spreets.jpg" alt="">
+                            <div class="card-body">
+                                <p class="card-text  portfolio-text">SPREETS</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card  portfolio-image">
+                        <a href="http://cityneversleeps.com/" target="_blank"> <img class="card-img-top animationImage"
+                                src="./assets/images/gI_UPLLOGO.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text  portfolio-text">URBAN PARTY LIFE</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!--Third Row-->
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+
+
+                </div>
+            </div>
+            <!-- Row Ends-->
+        </div>
+        <!--second page ends-->
+
     </div>
     <!--Main Content Ends-->
 
+
+
     <!--[ footer ] -->
     <div class="footer navbar-fixed-bottom">
-        Blog&nbsp;&nbsp;
-        Facebook&nbsp;&nbsp;
-        Twitter&nbsp;&nbsp;
-        LinkedIn
+        <span class ="footer-text">
+                <a href="https://github.com/silpashinto" target="_blank"> GitHub&nbsp;&nbsp;</a>
+                <a href="https://www.linkedin.com/in/silpa-shinto-32bb2816b/" target="_blank">LinkedIn &nbsp;&nbsp;</a>
+                <a href="https://drive.google.com/file/d/13YHBa2EjTblepRCgHfxbDTFVT8vhvbPE/view?usp=sharing" target="_blank">Resume</a>
+
+            <br>
+           <a href="#"> Email :silpashinto@gmail.com&nbsp;&nbsp; Phone : 803-269-5819 </a>
+        </span>
+
     </div>
+    <!-- JavaScript -->
+    <script src="./assets/javascript/scripts.js"></script>
 </body>
 
 </html>

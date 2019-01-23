@@ -47,7 +47,7 @@
             width: 960px;
             margin-left: 18.5%;
             margin-top:10px;
-            margin-bottom:20px;
+            margin-bottom:80px;
             text-align:initial;
             padding: 10px;
         }
@@ -152,12 +152,48 @@
         }
         .animationImage:hover{
             
-          -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-           
+           -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+        
+         
         }
         
 .row{
     margin-left: 0px;
     margin-right: 0px;
+}
+.footer-text a{
+    color: white;
+    text-decoration: none;
+} /*
+These rules take effect when the browser's width
+is  980px ,768px and 640px
+*/
+
+@media screen and (max-width: 980px) {
+
+    /* The main_content's width will be 600px */
+    .main_content {width: 600px;}
+    .portfolio-image{width: 290px;}
+
+}
+@media screen and (max-width: 768px) {
+
+    /* The main_content's width will be 540px */
+    .main_content {width: 540px;}
+    .portfolio-image{width: 251px;}
+    
+    
+}
+@media screen and (max-width: 640px) {
+
+    /* The main_content's width will be 400px */
+    .main_content {width:400px; margin-left: 10px;}        
+    .bigNav a{float: unset;margin: 0px;width:100%;background: none;}
+    #bio-image {float:unset; width:95%;}
+    .bigNav{background: #4aaaa5;}
+    
+}
+a,.page-item a{
+    color: #4aaaa5;
 }
